@@ -18,6 +18,13 @@ body {
     color: #56606d;
     font-size: 18px;
 }
+.tank img {
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+    border: solid 3px #3882F6;
+}
+
 .third-container {
     background-color: #E5E7EB;
 }
@@ -43,10 +50,6 @@ body {
 .header h3 {
     font-size: 24px;
     color: #F9FAF8;
-}
-.tank img {
-    width: 100px;
-    height: auto;
 }
 
 .quote-block p {
