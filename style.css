@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header a, .left-hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.header ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.first-container, .footer {
+    background-color: #1F2937;
+}
+.tank p {
+    color: #56606d;
+    font-size: 18px;
+}
+.third-container {
+    background-color: #E5E7EB;
+}
+.left-hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.header img {
+    width: auto;
+    height: 50px;
+}
+.second-header h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.right-hero img {
+    width: 400px;
+    height: 200px;
+}
+.header h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.tank img {
+    width: 100px;
+    height: auto;
+}
+
+.quote-block p {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.signature h1 {
+    font-size: 24px;
+    color: #1F2937;
+}
+
+.left-hero button, .blue-notice button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .blue-notice button {
+    border: solid 1px white;
+  }
+  .blue-notice {
+    background-color: #3882F6;
+    border-radius: 5px;
+  }
+
+.blue-notice h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+ }
+
+ .blue-notice p, .footer p {
+    color: #E5E7EB;
+ }
