@@ -66,12 +66,35 @@ body {
 .first-container, .footer {
     background-color: #1F2937;
 }
+.second-header {
+  display: flex;
+  justify-content: center;
+}
+.second-container {
+  padding: 10px 0px 110px 0px;
+}
+.all-tanks {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+.tank {
+  display: flex;
+  flex-direction: column;
+  /* remember that when flex-firection is column, align-items is the left-right horizontal centering! */
+  align-items: center;
+  width: 180px;
+  text-align: center;
+}
 .tank p {
     color: #56606d;
     font-size: 18px;
+    margin: 5px;
 }
 .tank img {
-    width: 150px;
+    width: 180px;
     height: auto;
     border-radius: 15px;
     border: solid 3px #3882F6;
