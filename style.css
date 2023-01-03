@@ -22,7 +22,7 @@ body {
 .both-heroes {
   display: flex;
   flex-direction: row;
-  padding: 100px 0px;
+  padding: 90px 0px 120px 0px;
   flex-wrap: wrap; 
 }
 .header {
