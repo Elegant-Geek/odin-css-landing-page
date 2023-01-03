@@ -16,12 +16,14 @@ body {
   justify-content: center;
   flex-direction: column;
   padding: 0rem 10rem;
+  flex-wrap: wrap;
 
 }
 .both-heroes {
   display: flex;
   flex-direction: row;
-  padding: 50px 0px;
+  padding: 100px 0px;
+  flex-wrap: wrap; 
 }
 .header {
   display: flex;
@@ -43,17 +45,23 @@ body {
   flex-direction: column;
   /* TIP! Justify content is used to vertically align in this case since flex direction is column. */
   justify-content: center;
-  padding-right: 75px;
+  padding-right: 70px;
+  max-width: 493px;
 }
 .right-hero {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+
 }
 .header a, .left-hero p {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+.left-hero p {
+  margin-top: 0px;
 }
 .first-container, .footer {
     background-color: #1F2937;
@@ -118,7 +126,7 @@ body {
     background-color: #3882F6;
     border: none;
     border-radius: 5px;
-    padding: 5px 20px;
+    padding: 5px 25px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
