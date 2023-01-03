@@ -57,7 +57,7 @@ body {
 }
 .header a, .left-hero p {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #c0c2c6;
     text-decoration: none;
 }
 .left-hero p {
@@ -78,7 +78,7 @@ body {
 }
 
 .third-container {
-    background-color: #E5E7EB;
+    background-color: #c0c2c6;
 }
 .left-hero h1 {
     font-size: 48px;
@@ -175,6 +175,6 @@ body {
  }
 
  .blue-notice p, .footer p {
-    color: #E5E7EB;
+    color: #c0c2c6;
     font-size: 16px;
  }
