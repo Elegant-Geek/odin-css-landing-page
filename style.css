@@ -17,7 +17,6 @@ body {
   flex-direction: column;
   padding: 0rem 10rem;
   flex-wrap: wrap;
-
 }
 .both-heroes {
   display: flex;
@@ -73,6 +72,10 @@ body {
 .second-container {
   padding: 10px 0px 110px 0px;
 }
+.third-container {
+  background-color: #E5E7EB;
+  padding: 110px 15rem;
+}
 .all-tanks {
   display: flex;
   gap: 50px;
@@ -100,9 +103,6 @@ body {
     border: solid 3px #3882F6;
 }
 
-.third-container {
-    background-color: #c0c2c6;
-}
 .left-hero h1 {
     font-size: 48px;
     color: #F9FAF8;
@@ -135,11 +135,19 @@ body {
     font-weight: 300;
     font-size: 36px;
     color: #1F2937;
+    /* padding: 0px 110px; */
+    margin: 0px;
 }
+.signature {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 32px;
 
+}
 .signature h1 {
     font-size: 24px;
     color: #1F2937;
+    margin: 0px;
 }
 /* .left-hero button {
   flex: none;
