@@ -21,7 +21,7 @@ body {
 .both-heroes {
   display: flex;
   flex-direction: row;
-  padding: 90px 0px 120px 0px;
+  padding: 90px 0px 90px 0px;
   flex-wrap: wrap; 
   justify-content: center;
 }
@@ -46,6 +46,7 @@ body {
   /* TIP! Justify content is used to vertically align in this case since flex direction is column. */
   justify-content: center;
   padding-right: 70px;
+  padding-bottom: 30px;
   max-width: 493px;
 }
 .right-hero {
