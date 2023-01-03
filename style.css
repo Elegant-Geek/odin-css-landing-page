@@ -1,15 +1,38 @@
+/* The body has a default margin. Remove it via: */
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+}
+.first-container, .second-container, .third-container, .fourth-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 1rem 8rem;
+
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
 }
 .header a, .left-hero p {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
-}
-.header ul {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
 }
 .first-container, .footer {
     background-color: #1F2937;
@@ -50,6 +73,7 @@ body {
 .header h3 {
     font-size: 24px;
     color: #F9FAF8;
+    margin: 0px;
 }
 
 .quote-block p {
