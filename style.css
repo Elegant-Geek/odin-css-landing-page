@@ -23,6 +23,7 @@ body {
   flex-direction: row;
   padding: 90px 0px 120px 0px;
   flex-wrap: wrap; 
+  justify-content: center;
 }
 .header {
   display: flex;
@@ -75,6 +76,9 @@ body {
 .third-container {
   background-color: #E5E7EB;
   padding: 110px 15rem;
+}
+.fourth-container {
+  margin: 100px 0px;
 }
 .all-tanks {
   display: flex;
@@ -200,14 +204,20 @@ body {
   .blue-notice {
     background-color: #3882F6;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 110px;
   }
 
 .blue-notice h1 {
     font-size: 24px;
     color: #F9FAF8;
+    margin: 0px;
  }
 
  .blue-notice p, .footer p {
     color: #c0c2c6;
     font-size: 16px;
+    margin: 0px;
  }
