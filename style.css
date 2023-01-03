@@ -125,11 +125,13 @@ body {
 .left-hero button, .blue-notice button {
     background-color: #3882F6;
     border: none;
-    border-radius: 5px;
-    padding: 5px 25px;
+    border-radius: 6px;
+    padding: 7px 22px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
+    font-weight: 700;
+    width: 113px;
   }
 
   .left-hero button a, .blue-notice button a {
