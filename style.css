@@ -221,3 +221,10 @@ body {
     font-size: 16px;
     margin: 0px;
  }
+
+ .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+ }
